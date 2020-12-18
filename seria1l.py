@@ -23,7 +23,7 @@ def getValues():
     
 while(1):
 
-    userInput = input('Get data points?')
+    userInput = input('Начать запись данных?[y/n]')
 
     if userInput == 'y':
         for i in range(0,n):
